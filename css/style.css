@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* manu start */
+.menu {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  height: auto;
+}
+.menu-container {
+  width: 80%;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+.menu-container ul {
+  float: right;
+}
+.menu-container ul li {
+  list-style: none;
+  float: left;
+  margin-left: 30px;
+}
+.menu-container ul li a {
+  text-decoration: none;
+}
+.buttom-border {
+  border-bottom: 1px solid rgb(43, 187, 7);
+}
+/* manu end */
+
+/* top section */
+section {
+  height: 500px;
+}
+.container {
+  width: 80%;
+  margin: 0px auto;
+  margin-top: 51px;
+}
+.half-width {
+  width: 40%;
+  float: left;
+  padding-left: 2%;
+  margin-left: 5%;
+  margin-top: 20pxs;
+}
+.half-width img {
+  width: 100%;
+}
+.half-width h1 {
+  font-size: 80px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: bold;
+}
+.name {
+  margin-bottom: 50px;
+}
+.name-highlight {
+  margin-bottom: 50px;
+  color: tomato;
+}
+.half-width p {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  margin-top: 30px;
+}
+.link-btn {
+  text-decoration: none;
+  color: white;
+  background-color: tomato;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+.link-btn:hover {
+  background-image: linear-gradient(180deg, tomato, green);
+}
+
+/* about section */
+.about-section .half-width h1 {
+  margin-top: 30px;
+  font-size: 30px;
+  padding: 30px 0px;
+}
+.about-section .half-width p {
+  font-size: 16px;
+  margin-bottom: 58px;
+}
+/* end top section */
+
+/* start working-project */
+.working-project {
+  background-color: #f8f9fc;
+}
+.box {
+  width: 28%;
+  display: inline-block;
+  background-color: white;
+  padding: 21px;
+  border-radius: 20px;
+  margin-bottom: 140px;
+  box-shadow: 10px 10px 30px rgb(126, 125, 125);
+}
+.box img {
+  width: 100%;
+}
+#midel-box {
+  margin: 0px 17px;
+}
+.working-project {
+  height: auto;
+}
+.working-project h2 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
+  padding: 75px 0px;
+}
+.box h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  padding: 10px 0px;
+}
+
+.box p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+/* end working-project */
+
+.experience {
+  width: 27%;
+  border-radius: 0px;
+}
+.experience:hover {
+  border: 1px solid rgb(153, 150, 150);
+}
+.experience:nth-child(2) {
+  margin: 0px 14px;
+}
+
+/* work inquary section */
+.work-inquary-contante {
+  width: 80%;
+  margin: 70px auto;
+  height: 200px;
+  background-image: url("../img/work.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+}
+.left-work .lets-chat {
+  display: inline-block;
+  width: 50%;
+  margin-top: 61px;
+}
+.left-work {
+  float: left;
+  margin-top: 70px;
+  margin-left: 70px;
+}
+.lets-chat {
+  float: right;
+  margin-top: 94px;
+  margin-right: 64px;
+}
+
+.left-work h1 {
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.buttom-section h3 {
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+}
+.buttom-section h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  margin-top: 20px;
+}
+.social-media ul {
+  text-align: center;
+  margin-top: 18px;
+}
+.social-media ul li {
+  display: inline-block;
+}
+.social-media ul li a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+.img {
+  width: 30px;
+}
